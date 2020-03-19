@@ -13,6 +13,14 @@ I've already been introduced to C++ when I was at high school but since a lot of
 First, you will find a folder called ['Tutorials-Basics'](https://www.youtube.com/playlist?list=PL82YdDfxhWsCyZLsg_kXhH8sy5ixQNras) there you will find .cpp files you can compile and execute.  
 Since I used them just for revising basics I decided not to upload the entire project but only the main files with the code.   
 I decided to create a C++ file for each topic in order to have them commented and well organised.
+There also is another folder called 'Games&Exercises' for other attempts of C++ simple games, exercises or just some basic projects attempts.
 
 ### Files:
+'Tutorials-Basics':
 limits.cpp contains tests done with size of natural variables, with bundaries of values (numbers) and signed and unsigned variables for better understanding the differences.
+arrays.cpp contains arrays declaration and how variables are registered in memory
+
+'Games&Exercises':
+guessnumber.cpp is a minigame, the user thinks a number and the machine try to guess it by moving upper and lower limit
+
+
