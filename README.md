@@ -22,5 +22,6 @@ arrays.cpp contains arrays declaration and how variables are registered in memor
 
 'Games&Exercises':
 guessnumber.cpp is a minigame, the user thinks a number and the machine try to guess it by moving upper and lower limit
+youguess.cpp this program thinks a number and you have to guess; the software tells you if the number is greater or lower
 
 
