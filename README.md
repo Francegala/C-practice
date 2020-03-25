@@ -27,3 +27,5 @@ numbers.cpp is a simple program that plays with an array of numbers and tells yo
 arraysmaths.cpp generates automatically an array of numbers and counts how many numbers are repeated
 parallelogram.cpp draws a parallelogram. first attempt at drawing a parallelogram. sides are fixed
 rectangle.cpp this program uses more functions than only the main one and calculate the perimeter and area of a rectangle and also draws it
+remainder.cpp this software calculates the total price using a 3x2 offer
+
