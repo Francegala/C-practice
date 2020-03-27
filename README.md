@@ -28,4 +28,4 @@ arraysmaths.cpp generates automatically an array of numbers and counts how many 
 parallelogram.cpp draws a parallelogram. first attempt at drawing a parallelogram. sides are fixed
 rectangle.cpp this program uses more functions than only the main one and calculate the perimeter and area of a rectangle and also draws it
 remainder.cpp this software calculates the total price using a 3x2 offer
-
+whilefunction.cpp Program calculates the product of two numbers summing them recursiverly using a while function
