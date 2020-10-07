@@ -1,12 +1,12 @@
 *.xcodeproj/
 DerivedData/
-
+.xcodeproj
 .DS_Store
 *.swp
 *~.nib
-
+.DS_Store
 build/
-
+.xcworkspace
 *.pbxuser
 *.perspective
 *.perspectivev3

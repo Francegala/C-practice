@@ -19,6 +19,8 @@ void cipolla(string me, int position, int length);
 void memeWhilerino();
 void impariamo();
 int swapNums(int &x, int &y);
+void newMethod();
+void inhTest();
 
 int main() {
     /*
@@ -51,7 +53,7 @@ int main() {
     
     memeWhilerino();*/
     
-    // impariamo();
+    /* impariamo();
     
     int firstNum = 10;
     int secondNum = 20;
@@ -69,10 +71,11 @@ int main() {
     cout<< firstNum<< endl;
     cout << secondNum<< endl;
     cout << &firstNum<< endl;
-    cout << &secondNum<< endl;
-
+    cout << &secondNum<< endl;*/
+    // newMethod();
+    inhTest();
 
     
-    std::cin.get();
+//    std::cin.get();
 
 }
