@@ -21,6 +21,10 @@ void impariamo();
 int swapNums(int &x, int &y);
 void newMethod();
 void inhTest();
+int poliTest() ;
+void fileTest() ;
+
+
 
 int main() {
     /*
@@ -73,8 +77,11 @@ int main() {
     cout << &firstNum<< endl;
     cout << &secondNum<< endl;*/
     // newMethod();
-    inhTest();
-
+    // inhTest();
+    // poliTest() ;
+    
+fileTest();
+    
     
 //    std::cin.get();
 
