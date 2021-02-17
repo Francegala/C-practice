@@ -23,8 +23,44 @@ void impariamo(){
     cout << "meal  "  << meal <<endl;
     cout << "&meal  "  << &meal <<endl;
     cout << endl;
+    
+    *add = "mc donalds";
+    
+    cout << "food  "  << food <<endl;
+    cout << "&food  "  << &food <<endl;
+    cout << endl;
+    cout << "meal  "  << meal <<endl;
+    cout << "&meal  "  << &meal <<endl;
+    cout << endl;
     cout << "add  " << add <<endl;
     cout << "*add  " << *add <<endl;
     cout << "&add  " << &add <<endl;
+    cout << endl;
 
+    meal = "gelato";
+    
+    cout << "food  "  << food <<endl;
+    cout << "&food  "  << &food <<endl;
+    cout << endl;
+    cout << "meal  "  << meal <<endl;
+    cout << "&meal  "  << &meal <<endl;
+    cout << endl;
+    cout << "add  " << add <<endl;
+    cout << "*add  " << *add <<endl;
+    cout << "&add  " << &add <<endl;
+    cout << endl;
+    
+    
+    food = "pastarella del picchio";
+    
+    cout << "food  "  << food <<endl;
+    cout << "&food  "  << &food <<endl;
+    cout << endl;
+    cout << "meal  "  << meal <<endl;
+    cout << "&meal  "  << &meal <<endl;
+    cout << endl;
+    cout << "add  " << add <<endl;
+    cout << "*add  " << *add <<endl;
+    cout << "&add  " << &add <<endl;
+    cout << endl;
 }

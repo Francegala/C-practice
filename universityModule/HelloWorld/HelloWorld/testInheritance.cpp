@@ -14,35 +14,54 @@ using namespace std;
 class MyClass {
 protected: // Protected access specifier
     int salary;
-  public:
-    void myFunction() {
-      cout << "Some content in parent class." <<endl<<endl;
-    }
+  
 };
 
 // Another base class
-class MyOtherClass {
+class MyOtherClass :  public MyClass{
   public:
-    void myOtherFunction() {
-      cout << "Some content in another parent class." <<endl<<endl;
+    void myOtherFunction(int a) {
+        salary = a;
     }
 };
 
 // Derived class
-class MyChildClass : public MyClass, public MyOtherClass {
+class MyChildClass : public MyOtherClass {
 public:
-    void getSalary(){
-        cout << "I know the salary: " << salary <<endl<<endl;
+  void myFunction() {
+      cout << "I know the salary: " << salary <<endl<<endl;
+  }    void getSalary(int &myCreditCard){// se levi & non cambia il valore
+        
+        myCreditCard += salary;
+        salary = 0;
 
     }
-    MyChildClass(int firstInt, int secondInt){
+    MyChildClass(int firstInt, int secondInt);
+    /*
+     MyChildClass(int firstInt, int secondInt){
         salary = firstInt+secondInt;
     }
+    */
 };
 
+MyChildClass :: MyChildClass(int firstInt, int secondInt){
+    salary = firstInt+secondInt;
+}
+
 void inhTest() {
+    int creditCard = 0;
   MyChildClass myObj(5,3);
   myObj.myFunction();
-    myObj.getSalary();
-  myObj.myOtherFunction();
+    cout << "my bank account: " << creditCard <<endl<<endl;
+    myObj.getSalary(creditCard);
+    myObj.myFunction();
+    cout << "my bank account: " << creditCard <<endl<<endl;
+  myObj.myOtherFunction(100);
+    myObj.myFunction();
+    cout << "my bank account: " << creditCard <<endl<<endl;
+    myObj.getSalary(creditCard);
+    myObj.myFunction();
+    cout << "my bank account: " << creditCard <<endl<<endl;
+
+
 }

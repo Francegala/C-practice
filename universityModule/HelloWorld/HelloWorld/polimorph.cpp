@@ -8,16 +8,12 @@
 #include <stdio.h>
 #include <iostream>
 #include <string>
+#include "Modules.h"
+
 
 using namespace std;
 
-// Base class
-class Modules {
-  public:
-    void worth() {
-    cout << "Usually around 20 credits" <<endl;
-  }
-};
+
 
 // Derived class
 class SoftwareEng : public Modules {
